@@ -76,3 +76,6 @@ Caused by: java.io.IOException: Stream closed
 2025-05-24 19:52:15,282 [3808700]   WARN - nCompilerReferenceIndexStorage - kotlin-data-container is not found 
 2025-05-24 19:54:05,792 [3919210]   WARN - nCompilerReferenceIndexStorage - kotlin-data-container is not found 
 2025-05-24 19:54:15,484 [3928902]   WARN - nCompilerReferenceIndexStorage - kotlin-data-container is not found 
+2025-05-24 20:05:55,570 [4628988]   WARN - vdmanager.AvdManagerConnection - No Android SDK Found 
+2025-05-24 20:05:56,769 [4630187]   WARN - nCompilerReferenceIndexStorage - kotlin-data-container is not found 
+2025-05-24 20:06:16,718 [4650136]   WARN - nCompilerReferenceIndexStorage - kotlin-data-container is not found 
