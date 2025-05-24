@@ -1,0 +1,64 @@
+2025-05-23 20:21:36,995 [     60]   WARN - llij.ide.plugins.PluginManager - id redefinition ([row,col,system-id]: [2,3,"product classpath"]) 
+Info  | RdCoroutineScope          | 14:JobScheduler FJ pool 3/7 | RdCoroutineHost overridden 
+2025-05-23 20:21:39,508 [   2573]   WARN - l.NotificationGroupManagerImpl - Notification group CodeWithMe is already registered (group=com.intellij.notification.NotificationGroup@5ebcc041). Plugin descriptor: PluginDescriptor(name=Code With Me, id=com.jetbrains.codeWithMe, descriptorPath=plugin.xml, path=/opt/intellij/plugins/cwm-plugin, version=213.7172.25, package=null, isBundled=true) 
+2025-05-23 20:21:42,223 [   5288]   WARN - vdmanager.AvdManagerConnection - No Android SDK Found 
+2025-05-23 20:21:42,542 [   5607]   WARN - openapi.wm.impl.ToolWindowImpl - ToolWindow icons should be 13x13. Please fix ToolWindow (ID:  github.copilotToolWindow) or icon UrlResolver{ownerClass=com.github.copilot.CopilotIcons, classLoader=PluginClassLoader(plugin=PluginDescriptor(name=GitHub Copilot, id=com.github.copilot, descriptorPath=plugin.xml, path=~/.local/share/JetBrains/IntelliJIdea2021.3/github-copilot-intellij, version=1.2.9.2684, package=null, isBundled=false), packagePrefix=null, instanceId=99, state=active), overriddenPath='icons/copilot_toolwindow.svg', url=file:/unresolved, useCacheOnLoad=true} 
+2025-05-23 20:21:44,449 [   7514]   WARN - ctionSystem.impl.ActionUpdater - 340 ms to grab EDT for CWMTelephonyGroup#update (com.jetbrains.rd.platform.codeWithMe.telephony.CWMTelephonyGroup) 
+2025-05-23 20:21:44,452 [   7517]   WARN - ctionSystem.impl.ActionUpdater - 298 ms to grab EDT for TabListAction#update (com.intellij.ide.actions.TabListAction) 
+2025-05-23 20:23:10,568 [  93633]   WARN - com.intellij.util.xmlb.Binding - no accessors for org.jetbrains.idea.perforce.perforce.ConnectionId 
+2025-05-23 20:23:11,733 [  94798]  ERROR - ableCopilotAgentProcessService - IdeaLoggingEvent[message=Copilot Agent terminated unexpectedly. Exit code: 129, throwable=java.lang.RuntimeException: Copilot Agent terminated unexpectedly. Exit code: 129
+	at com.github.copilot.lang.agent.RestartableCopilotAgentProcessService$BaseDelegateImplementation.onRestartException(RestartableCopilotAgentProcessService.java:264)
+	at com.github.copilot.lang.agent.CopilotAgentProcessServiceImpl.handleAgentExceptionLocked(CopilotAgentProcessServiceImpl.java:271)
+	at com.github.copilot.lang.agent.CopilotAgentProcessServiceImpl.lambda$executeNotification$4(CopilotAgentProcessServiceImpl.java:331)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.io.IOException: Stream closed
+	at java.base/java.lang.ProcessBuilder$NullOutputStream.write(ProcessBuilder.java:442)
+	at java.base/java.io.OutputStream.write(OutputStream.java:157)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:81)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
+	at com.github.copilot.lang.agent.vscodeRpc.VSCodeJsonRpc.sendBytes(VSCodeJsonRpc.java:83)
+	at com.github.copilot.lang.agent.vscodeRpc.VSCodeJsonRpc.sendNotification(VSCodeJsonRpc.java:59)
+	at com.github.copilot.lang.agent.CopilotAgentProcessServiceImpl.lambda$executeNotification$4(CopilotAgentProcessServiceImpl.java:328)
+	... 5 more
+] 
+2025-05-24 18:48:46,634 [     52]   WARN - llij.ide.plugins.PluginManager - id redefinition ([row,col,system-id]: [2,3,"product classpath"]) 
+Info  | RdCoroutineScope          | 17:JobScheduler FJ pool 5/7 | RdCoroutineHost overridden 
+2025-05-24 18:48:49,297 [   2715]   WARN - l.NotificationGroupManagerImpl - Notification group CodeWithMe is already registered (group=com.intellij.notification.NotificationGroup@612deb4a). Plugin descriptor: PluginDescriptor(name=Code With Me, id=com.jetbrains.codeWithMe, descriptorPath=plugin.xml, path=/opt/intellij/plugins/cwm-plugin, version=213.7172.25, package=null, isBundled=true) 
+2025-05-24 18:48:52,175 [   5593]   WARN - vdmanager.AvdManagerConnection - No Android SDK Found 
+2025-05-24 18:48:52,533 [   5951]   WARN - openapi.wm.impl.ToolWindowImpl - ToolWindow icons should be 13x13. Please fix ToolWindow (ID:  github.copilotToolWindow) or icon UrlResolver{ownerClass=com.github.copilot.CopilotIcons, classLoader=PluginClassLoader(plugin=PluginDescriptor(name=GitHub Copilot, id=com.github.copilot, descriptorPath=plugin.xml, path=~/.local/share/JetBrains/IntelliJIdea2021.3/github-copilot-intellij, version=1.2.9.2684, package=null, isBundled=false), packagePrefix=null, instanceId=99, state=active), overriddenPath='icons/copilot_toolwindow.svg', url=file:/unresolved, useCacheOnLoad=true} 
+2025-05-24 18:48:53,311 [   6729]   WARN - ctionSystem.impl.ActionUpdater - 246 ms to grab EDT for CWMTelephonyGroup#update (com.jetbrains.rd.platform.codeWithMe.telephony.CWMTelephonyGroup) 
+2025-05-24 18:48:53,324 [   6742]   WARN - ctionSystem.impl.ActionUpdater - 261 ms to grab EDT for TabListAction#update (com.intellij.ide.actions.TabListAction) 
+2025-05-24 18:48:57,511 [  10929]  ERROR - ableCopilotAgentProcessService - IdeaLoggingEvent[message=Copilot Agent terminated unexpectedly. Exit code: 129, throwable=java.lang.RuntimeException: Copilot Agent terminated unexpectedly. Exit code: 129
+	at com.github.copilot.lang.agent.RestartableCopilotAgentProcessService$BaseDelegateImplementation.onRestartException(RestartableCopilotAgentProcessService.java:264)
+	at com.github.copilot.lang.agent.CopilotAgentProcessServiceImpl.handleAgentExceptionLocked(CopilotAgentProcessServiceImpl.java:271)
+	at com.github.copilot.lang.agent.CopilotAgentProcessServiceImpl.lambda$executeCommandWithPromise$3(CopilotAgentProcessServiceImpl.java:303)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.io.IOException: Stream closed
+	at java.base/java.lang.ProcessBuilder$NullOutputStream.write(ProcessBuilder.java:442)
+	at java.base/java.io.OutputStream.write(OutputStream.java:157)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:81)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
+	at com.github.copilot.lang.agent.vscodeRpc.VSCodeJsonRpc.sendBytes(VSCodeJsonRpc.java:83)
+	at com.github.copilot.lang.agent.vscodeRpc.VSCodeJsonRpc.sendCommand(VSCodeJsonRpc.java:42)
+	at com.github.copilot.lang.agent.CopilotAgentProcessServiceImpl.lambda$executeCommandWithPromise$3(CopilotAgentProcessServiceImpl.java:300)
+	... 5 more
+] 
+2025-05-24 18:52:08,693 [ 202111]   WARN - com.intellij.util.xmlb.Binding - no accessors for org.jetbrains.idea.perforce.perforce.ConnectionId 
+2025-05-24 18:52:14,161 [ 207579]   WARN - vdmanager.AvdManagerConnection - No Android SDK Found 
+2025-05-24 18:52:16,234 [ 209652]   WARN - nCompilerReferenceIndexStorage - kotlin-data-container is not found 
+2025-05-24 18:52:57,396 [ 250814]   WARN - vdmanager.AvdManagerConnection - No Android SDK Found 
+2025-05-24 18:52:58,002 [ 251420]   WARN - nCompilerReferenceIndexStorage - kotlin-data-container is not found 
+2025-05-24 18:53:49,192 [ 302610]   WARN - vdmanager.AvdManagerConnection - No Android SDK Found 
+2025-05-24 18:53:49,857 [ 303275]   WARN - nCompilerReferenceIndexStorage - kotlin-data-container is not found 
+2025-05-24 18:54:06,218 [ 319636]   WARN - nCompilerReferenceIndexStorage - kotlin-data-container is not found 
+2025-05-24 18:54:19,743 [ 333161]   WARN - nCompilerReferenceIndexStorage - kotlin-data-container is not found 
+2025-05-24 18:54:47,838 [ 361256]   WARN - nCompilerReferenceIndexStorage - kotlin-data-container is not found 
+2025-05-24 18:54:56,561 [ 369979]   WARN - nCompilerReferenceIndexStorage - kotlin-data-container is not found 
